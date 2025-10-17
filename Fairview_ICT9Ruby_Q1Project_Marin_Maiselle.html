@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrei - Web and Mobile Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+    <header>
+    <nav>
+    <ul>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </nav>
+    </header>
+
+        <section id="hero">
+            <img src="profile.jpeg" alt="Maiselle's Profile">
+            <h1>Hi! I'm Maiselle</h1>
+            <p>Student at OB Montessori Center</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Currently a 9th-grade student at OB Montessori Center, I am deeply intrigued by the intricacies of the legal system, with a particular interest in criminal law. My academic pursuits are fueled by a desire to understand justice and advocacy, envisioning a future where I can contribute meaningfully to the field.</p>
+            <p>Outside the classroom, I immerse myself in the creative realms of music and cosmetics, finding both to be outlets for personal expression and relaxation. Whether exploring new melodies or experimenting with makeup techniques, these hobbies provide a balance to my studies and allow me to explore different facets of my personality.</p>
+        </section>
+
+        <section id="works">
+            <h2>My Works</h2>
+            <div class="horizontal-scroll">
+                <div class="work-item">
+                    <img src="https://cdn.discordapp.com/attachments/1146785330289188988/1425050950996983870/work1.jpeg?ex=68e62d9e&is=68e4dc1e&hm=b7982d6e69a9a6b50e0b9b7e84c42c30a16a27cd32c81d187f24c1b50124b032&" alt="Work 1">
+                    <p>Slambook</p>
+                </div>
+                <div class="work-item">
+                    <img src="https://cdn.discordapp.com/attachments/1146785330289188988/1425050951672402021/work2.jpeg?ex=68e62d9f&is=68e4dc1f&hm=3b89e07167a3b522a281254b424597c5f9adb210f1b6c89ce9d37733adbdf889&" alt="Work 2">
+                    <p>Favorite Artist Chart</p>
+                </div>
+                <div class="work-item">
+                    <img src="https://cdn.discordapp.com/attachments/1146785330289188988/1425050952469319714/work3.jpeg?ex=68e62d9f&is=68e4dc1f&hm=ceb8fd06d53887d2041019e76b52baa2818260e2bbb4fd26790f7cec987cc13a&" alt="Work 3">
+                    <p>Robotics Club Form</p>
+                </div>
+                <div class="work-item">
+                    <img src="https://cdn.discordapp.com/attachments/1146785330289188988/1425050952909455401/work4.jpeg?ex=68e62d9f&is=68e4dc1f&hm=d228c3ceeebbfe5deda89d1439264510efcbcc88ba02fde51654a96c16382bdc&" alt="Work 4">
+                    <p>Movie Recos</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+        <p>Enter your email below to send a message.</p>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Please enter your message here."></textarea>
+
+           <label for="how-find">How did you find me?</label>
+            <div class="radio-group">
+            <input type="radio" id="facebook" name="find_me" value="facebook">
+            <label for="facebook">Facebook</label>
+
+            <input type="radio" id="google" name="find_me" value="google">
+            <label for="google">Google</label>
+
+            <input type="radio" id="friends" name="find_me" value="friends">
+            <label for="friends">Friends</label>
+        </div>
+
+            <label for="services">Services Interested In:</label>
+            <div class="checkbox-group">
+            <input type="checkbox" id="web_design" name="services" value="web_design">
+            <label for="web_design">Web Design</label>
+
+            <input type="checkbox" id="graphic_design" name="services" value="graphic_design">
+            <label for="graphic_design">Graphic Design</label>
+
+            <input type="checkbox" id="robotics" name="services" value="robotics">
+            <label for="robotics">Robotics</label>
+        </div>
+
+            <label for="rating">Rate my Portfolio:</label>
+            <select id="rating" name="rating">
+                <option value="">-- Select Rating --</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section> 
+
+        <footer>
+            <p>© 2025 Maiselle. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
